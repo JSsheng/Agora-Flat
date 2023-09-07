@@ -9,65 +9,57 @@
     <title>Flat</title>
 </head>
 
-
 <body>
+    <!-- 移动遮罩层 -->
     <div style="display:none;" class="mask-layer">
     </div>
 
-    <div class="popup">
-        <div style="display:none;" class="box">
-            <div class="box-top">
-                <img src="./image/flat-icon.svg" alt="">
+    <!-- pc遮罩层 -->
+    <div style="display:none;" class="body-mask">
+    </div>
 
-                <div>
-                    <img class="fork" src="./image/file (1).svg" alt="">
-                </div>
-            </div>
-
-            <div class="box-bom">
-                <p>Feedback</p>
-                <p>pricing</p>
+    <div style="display:none;" class="box">
+        <div class="box-top">
+            <img src="./image/flat-icon.svg" alt="">
+            <div>
+                <img class="fork" src="./image/off.svg" alt="">
             </div>
         </div>
-
-        <div class="title-content">
-            <div class="title">
-                <div>
-                    <div class="img-left">
-                        <img src="./image/flat-icon.svg" alt="">
+        <div class="box-bom">
+            <p>Feedback</p>
+        </div>
+    </div>
+    <div class="title-content">
+        <div class="title">
+            <div>
+                <div class="img-left">
+                    <img src="./image/flat-icon.svg" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="title-right show">
+                    <div>
+                        <a href="https://github.com/netless-io/flat/issues" target="_blank">Feedback</a>
+                    </div>
+                    <div>
+                        <a href="#try">
+                            <button class="btn-a">Try for tree</button>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#down">
+                            <button class="btn-b">Download</button>
+                        </a>
                     </div>
                 </div>
-                <div>
-                    <div class="title-right show">
-                        <div>
-                            <a href="https://github.com/netless-io/flat/issues" target="_blank">Feedback</a>
-                        </div>
-                        <div>pricing</div>
-                        <div class="en">
-                            <label>🌐</label>
-                            English
-                        </div>
-                        <div>
-                            <a href="#try">
-                                <button class="btn_1">Try for tree</button>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#down">
-                                <button class="btn_2">Download</button>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="und" class="underlines">
-                        <div class="underline"></div>
-                        <div class="underline"></div>
-                        <div class="underline"></div>
-                    </div>
+                <div id="und" class="underlines">
+                    <div class="underline"></div>
+                    <div class="underline"></div>
+                    <div class="underline"></div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="middle-img">
         <div class="mask">
             <div class="content">
@@ -81,60 +73,60 @@
                             <button name="down" id="down" class="btn_4">Download</button>
                         </div>
                     </div>
+
+                    <!--背景图   -->
                     <div class="mask-img">
-                        <img src="./imgs/Group.svg" alt="">
                     </div>
+
                     <div class="img none">
-                        <img src="./image/Mask group.svg" alt="">
+                        <img src="./image/phone-bgc.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="content">
         <div class="text-content">
             <div class="cards">
-                <div calss="cards_1">
+                <div calss="cards-a">
                     <div>
                         <img src="./image/share.svg" alt="">
                     </div>
-                    <div class="item">
+                    <div>
                         <p class="share">Share While Boarding</p>
-                        <span class="online_A">For online teaching scenarios where you are sharing while boar</span>
+                        <span class="online-a">For online teaching scenarios where you are sharing while boar</span>
                     </div>
                 </div>
-                <div calss="cards_1">
+                <div calss="cards-a">
                     <div>
                         <img src="./image/extensive.svg" alt="">
                     </div>
                     <div>
                         <p class="share">Extensive Courseware</p>
-                        <span class="online_A">Synchronized sharing of courseware and are sharing while hoar</span>
+                        <span class="online-a">Synchronized sharing of courseware and are sharing while hoar</span>
                     </div>
                 </div>
-                <div calss="cards_1">
+                <div calss="cards-a">
                     <div>
                         <img src="./image/interaction.svg" alt="">
                     </div>
                     <div>
                         <p class="share">Windows Intteractions</p>
-                        <span class="online_A">Windows intteractions,Support for switching on display</span>
+                        <span class="online-a">Windows intteractions,Support for switching on display</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="content">
         <div class="text-content">
-            <div class="slideshow tabs">
+            <div class="tabs-0 slideshow">
                 <div>
                     <div class="images">
-                        <img src="./image/Rectangle 5.svg" alt="">
-                        <img style="display: none;" src="./image/Frame 1784.svg" alt="">
-                        <img style="display: none;" src="./image/Frame 1794.svg" alt="">
-                        <img style="display: none;" src="./imgs/Vector (5).svg" alt="">
+                        <img src="./image/whiteboard.svg" alt="">
+                        <img style="display: none;" src="./image/video.svg" alt="">
+                        <img style="display: none;" src="./image/replay.svg" alt="">
+                        <img style="display: none;" src="./image/sharing.svg" alt="">
                     </div>
                 </div>
                 <div class="slideshow-right">
@@ -158,19 +150,17 @@
                             <p>Courseware sharing</p>
                         </div>
                     </div>
-
                     <div class="slideshow-left_1 none">
                         <div class="images_1">
-                            <img src="./image/Rectangle 5.svg" alt="">
-                            <img style="display: none;" src="./image/Frame 1784.svg" alt="">
-                            <img style="display: none;" src="./image/Frame 1794.svg" alt="">
-                            <img style="display: none;" src="./imgs/Vector (5).svg" alt="">
+                            <img src="./image/whiteboard.svg" alt="">
+                            <img style="display: none;" src="./image/video.svg" alt="">
+                            <img style="display: none;" src="./image/replay.svg" alt="">
+                            <img style="display: none;" src="./image/sharing.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="slideshow tabs">
+            <div class="tabs-1 slideshow">
                 <div class="slideshow-right">
                     <div>
                         <p class="online-text">A professional online teaching tool</p>
@@ -179,7 +169,7 @@
                         </div>
                     </div>
                     <div class="items">
-                        <div class="item">
+                        <div class="item active">
                             <p>Book a class</p>
                         </div>
                         <div class="item">
@@ -192,40 +182,37 @@
                             <p>Issue rewards</p>
                         </div>
                         <div class="item">
-                            <p>authority manage</p>
+                            <p>Authority manage</p>
                         </div>
                     </div>
                     <div class="slideshow-left_1 none">
                         <div class="images_1">
-                            <img src="./image/Rectangle 723.svg" alt="">
-                            <img style="display:none;" src="./image/Rectangle 724.svg" alt="">
-                            <img style="display:none;" src="./image/Rectangle 727.svg" alt="">
-                            <img style="display:none;" src="./image/Rectangle 725.svg" alt="">
-                            <img style="display:none;" src="./image/Rectangle 726.svg" alt="">
+                            <img src="./image/book.svg" alt="">
+                            <img style="display:none;" src="./image/upfile.svg" alt="">
+                            <img style="display:none;" src="./image/q&a.svg" alt="">
+                            <img style="display:none;" src="./image/rewards.svg" alt="">
+                            <img style="display:none;" src="./image/authority.svg" alt="">
                         </div>
                     </div>
                 </div>
-
                 <div class="slideshow-left">
                     <div class="images">
-                        <img src="./image/Rectangle 723.svg" alt="">
-                        <img style="display:none;" src="./image/Rectangle 724.svg" alt="">
-                        <img style="display:none;" src="./image/Rectangle 727.svg" alt="">
-                        <img style="display:none;" src="./image/Rectangle 725.svg" alt="">
-                        <img style="display:none;" src="./image/Rectangle 726.svg" alt="">
+                        <img src="./image/book.svg" alt="">
+                        <img style="display:none;" src="./image/upfile.svg" alt="">
+                        <img style="display:none;" src="./image/q&a.svg" alt="">
+                        <img style="display:none;" src="./image/rewards.svg" alt="">
+                        <img style="display:none;" src="./image/authority.svg" alt="">
                     </div>
                 </div>
-
             </div>
-
-            <div class="slideshow tabs">
+            <div class="tabs-2 slideshow">
                 <div class="slideshow-left">
                     <div class="images">
-                        <img src="./image/Rectangle 728.svg" alt="">
-                        <img style="display: none;" src="./image/Rectangle 729.svg" alt="">
-                        <img style="display: none;" src="./image/Rectangle 730.svg" alt="">
-                        <img style="display: none;" src="./image/Rectangle 731.svg" alt="">
-                        <img style="display: none;" src="./image/Rectangle 732.svg" alt="">
+                        <img src="./image/speak.svg" alt="">
+                        <img style="display: none;" src="./image/doodle.svg" alt="">
+                        <img style="display: none;" src="./image/chat.svg" alt="">
+                        <img style="display: none;" src="./image/view-replay.svg" alt="">
+                        <img style="display: none;" src="./image/upimages.svg" alt="">
                     </div>
                 </div>
                 <div class="slideshow-right">
@@ -237,7 +224,7 @@
                     </div>
                     <div class="items">
                         <div class="item active">
-                            <p>raise hand to speak</p>
+                            <p>Raise hand to speak</p>
                         </div>
                         <div class="item">
                             <p>Doodle</p>
@@ -252,154 +239,256 @@
                             <p>Upload Images</p>
                         </div>
                     </div>
-
                     <div class="slideshow-left_1 none">
-                        <div class="images_1">
-                            <img src="./image/Rectangle 728.svg" alt="">
-                            <img style="display: none;" src="./image/Rectangle 729.svg" alt="">
-                            <img style="display: none;" src="./image/Rectangle 730.svg" alt="">
-                            <img style="display: none;" src="./image/Rectangle 731.svg" alt="">
-                            <img style="display: none;" src="./image/Rectangle 732.svg" alt="">
+                        <div class="images">
+                            <img src="./image/speak.svg" alt="">
+                            <img style="display: none;" src="./image/doodle.svg" alt="">
+                            <img style="display: none;" src="./image/chat.svg" alt="">
+                            <img style="display: none;" src="./image/view-replay.svg" alt="">
                         </div>
                     </div>
+                    <img style="display: none;" src="./image/upimages.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
-
     <div class="content">
         <div class="text-content">
-            <div class="cards_B">
-                <div class="cards_4">
+            <div class="cards">
+                <div class="cards-a">
                     <img src="./image/plugin.svg" alt="">
                     <div>
-                        <p class="share">Share While Boarding</p>
-                        <span class="online">For online teaching scenarios where you are sharing while boar</span>
+                        <p class="share">Scenario plugin</p>
+                        <span class="online">
+                            Support common classroom plug-ins: YouTube, Google Docs, GeoGebra, Code Editor, Cut down
+                        </span>
                     </div>
                 </div>
-                <div class="cards_2">
+                <div class="cards-a">
                     <img src="./image/phone.svg" alt="">
                     <div>
-                        <p class="share">Extensive Courseware</p>
-                        <span class="online">Synchronized sharing of courseware and are animations</span>
+                        <p class="share">Mobile first</p>
+                        <span class="online">
+                            Support iOS, Android, iPadOS, macOS, Windows versions, not limited by devices
+                        </span>
                     </div>
                 </div>
-                <div class="cards_3">
+                <div class="cards-a">
                     <img src="./image/opensource.svg" alt="">
                     <div>
-                        <p class="share">Windows Intteractions</p>
-                        <span class="online">Windows intteractions,Support for switching on display</span>
+                        <p class="share">Open source</p>
+                        <span class="online">
+                            Based on open source code, complete development quickly
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-
     <div class="text-content images">
         <div class="text-icon">
             <div class="share">AaoraFlat hasgained the trust of 1000 + individual teachersand school institutions
             </div>
             <div class="imgs">
-                <img src="./imgs/Vector (24).svg" alt="">
-                <img src="./imgs/Vector (20).svg" alt="">
-                <img src="./imgs/Vector (23).svg" alt="">
-                <img src="./imgs/Vector (23).svg" alt="">
-                <img src="./imgs/Vector (23).svg" alt="">
-                <img src="./imgs/Vector(18).svg" alt="">
-                <img src="./imgs/Vector (21).svg" alt="">
-                <img src="./imgs/Vector (22).svg" alt="">
+                <img src="./image/school-1.svg" alt="">
+                <img src="./image/school-2.svg" alt="">
+                <img src="./image/school-3.svg" alt="">
+                <img src="./image/school-4.svg" alt="">
+                <img src="./image/school-5.svg" alt="">
+                <img src="./image/school-6.svg" alt="">
+                <img src="./image/school-7.svg" alt="">
+                <img src="./image/school-8.svg" alt="">
             </div>
         </div>
-
         <div class="box-scrolling">
             <div class="list">
-                <div class="cc">
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐰.svg" alt="">
+                        <span>Teacher Gong</span>
+                    </div>
+                    <div>
+                        So easy to use
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🎃.svg" alt="">
+                        <span>Teacher Wang</span>
+                    </div>
+                    <div>
+                        Parents like the clear picture quality of Flat, which looks more comfortable than ClassIn
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/👾.svg" alt="">
+                        <span>Teacher Xu</span>
+                    </div>
+                    <div>
+                        I'm a trainer and Flat is awesome, great experience
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🦊.svg" alt="">
+                        <span>Teacher Zhou</span>
+                    </div>
+                    <div>
+                        My girlfriend is an individual teacher. Due to work scheduling reasons, I used DingTalk to give
+                        online classes to the students I brought before. However, I found that the software is very
+                        complicated, and the resources for small classes are unstable. I searched on Zhihu and found the
+                        Flat online class. I used it once, the interface is refreshing and clean, I would like to
+                        express my gratitude to Flat's R&D team
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐰.svg" alt="">
+                        <span>Teacher Gong</span>
+                    </div>
+                    <div>
+                        So easy to use
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🎃.svg" alt="">
+                        <span>Teacher Wang</span>
+                    </div>
+                    <div>
+                        Parents like the clear picture quality of Flat, which looks more comfortable than ClassIn
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/👾.svg" alt="">
+                        <span>Teacher Xu</span>
+                    </div>
+                    <div>
+                        I'm a trainer and Flat is awesome, great experience
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🦊.svg" alt="">
+                        <span>Teacher Zhou</span>
+                    </div>
+                    <div>
+                        My girlfriend is an individual teacher. Due to work scheduling reasons, I used DingTalk to give
+                        online classes to the students I brought before. However, I found that the software is very
+                        complicated, and the resources for small classes are unstable. I searched on Zhihu and found the
+                        Flat online class. I used it once, the interface is refreshing and clean, I would like to
+                        express my gratitude to Flat's R&D team
+                    </div>
                 </div>
             </div>
-
             <div class="list">
-                <div class="cc">
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
-                    <p class="infinite-playback">
-                        塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。
-                    </p>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🤖.svg" alt="">
+                        <span>Teacher Qin</span>
+                    </div>
+                    <div>
+                        This tool is very lightweight
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐯.svg" alt="">
+                        <span>Teacher Chen</span>
+                    </div>
+                    <div>
+                        Thanks to the team, Agora Flat is already very powerful and practical
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐵.svg" alt="">
+                        <span>Teacher Yan</span>
+                    </div>
+                    <div>
+                        There are many similar software, but the experience is not good. I accidentally discovered Flat,
+                        and I fell in love with it once I used it. Thank you for developing such an excellent software!
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐶.svg" alt="">
+                        <span>Teacher Chen</span>
+                    </div>
+                    <div>
+                        I have done a full lesson with the new version. I can say that it’s almost at par with my
+                        current app. I will not be renewing my license with my current one. I think Flat has a great
+                        potential, sir. Thanks a lot.
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🤖.svg" alt="">
+                        <span>Teacher Qin</span>
+                    </div>
+                    <div>
+                        This tool is very lightweight
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐯.svg" alt="">
+                        <span>Teacher Chen</span>
+                    </div>
+                    <div>
+                        Thanks to the team, Agora Flat is already very powerful and practical
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐵.svg" alt="">
+                        <span>Teacher Yan</span>
+                    </div>
+                    <div>
+                        There are many similar software, but the experience is not good. I accidentally discovered Flat,
+                        and I fell in love with it once I used it. Thank you for developing such an excellent software!
+                    </div>
+                </div>
+                <div class="infinite-playback">
+                    <div class="img-text">
+                        <img src="./image/🐶.svg" alt="">
+                        <span>Teacher Chen</span>
+                    </div>
+                    <div>
+                        I have done a full lesson with the new version. I can say that it’s almost at par with my
+                        current app. I will not be renewing my license with my current one. I think Flat has a great
+                        potential, sir. Thanks a lot.
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="con4"></div>
     </div>
-
-
-
     <div class="content none">
         <div class="text-icon">
-            <div class="share">AaoraFlat hasgained the trust of 1000 + individual teachers and school institutions
+            <div class="share">
+                AaoraFlat hasgained the trust of 1000 + individual teachers and school institutions
             </div>
             <div class="imgs">
-                <div class="imgs_1">
-                    <img src="./imgs/Vector (24).svg" alt="">
-                    <img src="./imgs/Vector (20).svg" alt="">
-                    <img src="./imgs/Vector (23).svg" alt="">
+                <div class="imgs-a">
+                    <img src="./image/school-1.svg" alt="">
+                    <img src="./image/school-2.svg" alt="">
+                    <img src="./image/school-3.svg" alt="">
                 </div>
-                <div class="imgs_1">
-                    <img src="./imgs/Vector (23).svg" alt="">
-                    <img src="./imgs/Vector (23).svg" alt="">
-                    <img src="./imgs/Vector(18).svg" alt="">
+                <div class="imgs-a">
+                    <img src="./image/school-4.svg" alt="">
+                    <img src="./image/school-5.svg" alt="">
+                    <img src="./image/school-6.svg" alt="">
                 </div>
-                <img src="./imgs/Vector (21).svg" alt="">
-                <img src="./imgs/Vector (22).svg" alt="">
+                <img src="./image/school-7.svg" alt="">
+                <img src="./image/school-8.svg" alt="">
             </div>
-
             <div class="box-scrolling">
-                <div class="list">
-                    <div class="cc">
-                    </div>
 
-                </div>
             </div>
-            <div id="con4"></div>
         </div>
     </div>
-
     <div class="content none">
         <div class="box-scrolling-a">
             <p class="infinite-playback">
@@ -425,48 +514,58 @@
             </p>
         </div>
     </div>
-
     <div class="text-content">
         <div class="edition images">
             <div>
                 <p class="share">Download</p>
-                <span class="online_A">Simultaneously supports iOS,Android,iPadOS,macOS,Windowsversions,not limited
-                    by
+                <span class="online-a">Simultaneously supports iOS,Android,iPadOS,macOS,Windowsversions,not limited by
                     devices</span>
             </div>
             <div class="icons">
-                <div>
+                <div class="downloads">
                     <img src="./image/windows.svg" alt="">
+                    <div>
+                        <img class="download" src="./image/download.svg" alt="">
+                    </div>
                     <p>Windows</p>
                 </div>
-                <div>
+                <div class="downloads">
                     <img src="./image/mac.svg" alt="">
+                    <div>
+                        <img class="download mac-downloads" src="./image/download.svg" alt="">
+                    </div>
                     <p>macOS</p>
                 </div>
-                <div>
+                <div class="downloads">
                     <img src="./image/ios.svg" alt="">
+                    <div>
+                        <img class="download" src="./image/download.svg" alt="">
+                    </div>
                     <p>iOS</p>
                 </div>
-                <div>
+                <div class="downloads">
                     <img src="./image/android.svg" alt="">
+                    <div>
+                        <img class="download" src="./image/download.svg" alt="">
+                    </div>
                     <p>Android</p>
                 </div>
-                <div>
+                <div class="downloads">
                     <img src="./image/web.svg" alt="">
+                    <div>
+                        <img class="download" src="./image/download.svg" alt="">
+                    </div>
                     <p>Web</p>
                 </div>
             </div>
         </div>
-
-
         <div class="icons none">
             <div>
-                <p class="share_A">Download</p>
-                <span class="online_A">Simultaneously supports iOS,Android,iPadOS,macOS,Windowsversions,not limited
-                    by
-                    devices</span>
+                <p>Download</p>
+                <span class="online-a">
+                    Simultaneously supports iOS,Android,iPadOS,macOS,Windowsversions,not limited by devices
+                </span>
             </div>
-
             <div>
                 <div>
                     <img src="./image/ios.svg" alt="">
@@ -502,7 +601,54 @@
     </div>
 
 
+    <div style="display:none" class="downloadFrame">
+        <div class="off">
+            <img id="off" src="./image/off.svg" alt="">
+        </div>
+
+        <div class="download-top">
+            <div>
+                <div class="mac-edition">
+                    下载更适合你的 Mac 的 Agora Flat 版本
+                </div>
+                <div class="btns">
+                    <button class="mac-btn">下载 Apple 芯片版</button>
+                    <button class="mac-btn inel">下载 Intel 芯片版</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="download-bom">
+            <div class="item-bom">
+                <div>
+                    <ul>
+                        <li class="li">点击左上角苹果菜单，点击 「关于本机</li>
+                        <li class="li">查看芯片类型是「Intel」还是「Apple」，并选择对应版本下</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
+
+        var body_mask = document.querySelector(".body-mask")
+        var downloadFrame = document.querySelector(".downloadFrame")
+        var off = document.getElementById("off")
+        var download = document.querySelector(".mac-downloads")
+
+        download.addEventListener("click", function () {
+            body_mask.style.display = "block"
+            downloadFrame.style.display = "block"
+        })
+
+        off.addEventListener("click", function () {
+            console.log(off);
+            downloadFrame.style.display = "none"
+            body_mask.style.display = "none"
+        })
+
+
         var file = document.querySelector("#und")
         var fork = document.querySelector(".fork")
         var box = document.querySelector(".box")
@@ -518,69 +664,26 @@
             mask.style.display = "none"
         });
 
-        // 设置keyframes属性
-        function addKeyFrames(y) {
-            var style = document.createElement('style');
-            style.type = 'text/css';
-            var keyFrames = '\
-                @-webkit-keyframes rowup {\
-                    0% {\
-                        -webkit-transform: translate3d(0, 0, 0);\
-                        transform: translate3d(0, 0, 0);\
-                    }\
-                    100% {\
-                        -webkit-transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
-                        transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
-                    }\
-                }\
-                @keyframes rowup {\
-                    0% {\
-                        -webkit-transform: translate3d(0, 0, 0);\
-                        transform: translate3d(0, 0, 0);\
-                    }\
-                    100% {\
-                        -webkit-transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
-                        transform: translate3d(0, A_DYNAMIC_VALUE, 0);\
-                    }\
-                }';
-            style.innerHTML = keyFrames.replace(/A_DYNAMIC_VALUE/g, y);
-            document.getElementsByTagName('head')[0].appendChild(style);
-        }
-
-
-        function init() {
-            // var data = '塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。塞下秋来风景异，衡阳雁去无留意。四面边声连角起，千嶂里，长烟落日孤城闭。浊酒一杯家万里，燕然未勒归无计。羌管悠悠霜满地，人不寐，将军白发征夫泪。', //样例数据
-            data_len = data.length,
-                len = parseInt(Math.random() * 6) + 6; // 数据的长度
-            html = '<div class="ss">';
-
-            for (var i = 0; i < len; i++) {
-                var start = parseInt(Math.random() * (data_len - 20)),
-                    s = parseInt(Math.random() * data_len);
-                html += '<div class="item"v>' + i + '- ' + data.substr(start, s) + '</div>';
-            }
-            html += '</div>';
-            document.querySelector('.list .cc').innerHTML = html + html; // 复制一份数据
-            var height = document.querySelector('.list .ss').offsetHeight; // 一份数据的高度
-            addKeyFrames('-' + height + 'px'); // 设置keyframes
-            document.querySelector('.list .cc').className += ' rowup'; // 添加 rowup
-        }
-        init()
 
         const $ = sel => document.querySelector(sel)
         const $$ = sel => Array.from(document.querySelectorAll(sel))
         Node.prototype.on = Node.prototype.addEventListener
 
-        let tabs = $$('.tabs .items .item')
-        let imgs = $$('.tabs .images img')
+        for (i = 0; i < 3; i++) {
+            let tabs = $$(`.tabs-${i} .items .item`)
+            let imgs = $$(`.tabs-${i} .images img`)
 
-        function updateTab(activeTab) {
-            tabs.forEach((tab, i) => {
-                const visible = tab.classList.toggle('active', tab === activeTab)
-                imgs[i].style.display = visible ? '' : 'none'
-            });
+            function updateTab(activeTab) {
+                tabs.forEach((tab, i) => {
+                    const visible = tab.classList.toggle('active', tab === activeTab)
+                    imgs[i].style.display = visible ? '' : 'none'
+                });
+            }
+            tabs.forEach(tab => tab.on('click', updateTab.bind(null, tab)))
         }
-        tabs.forEach(tab => tab.on('click', updateTab.bind(null, tab)))
+
+
+
     </script>
 </body>
 
