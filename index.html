@@ -2,353 +2,206 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J5NHVLY7TP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-J5NHVLY7TP');
+    </script>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description"
+        content="Better Teaching for freelancers. A simple and refreshing online teaching tool focusing on interactive in-class experience. Try for free and download Agora Flat for multiple platforms.">
+    <title>Flat Online Classroom</title>
+    <link rel="shortcut icon" href="./favicon_en.ico">
     <link rel="stylesheet" href="./style.css">
-    <title>Flat</title>
 </head>
 
 <body>
-    <!-- 移动遮罩层 -->
-    <div style="display:none;" class="mask-layer">
-    </div>
-
-    <!-- pc遮罩层 -->
-    <div style="display:none;" class="body-mask">
-    </div>
-
-    <div style="display:none;" class="box">
-        <div class="box-top">
-            <img src="./image/flat-icon.svg" alt="">
-            <div>
-                <img class="fork" src="./image/off.svg" alt="">
-            </div>
-        </div>
-        <div class="box-bom">
-            <p>Feedback</p>
-        </div>
-    </div>
-    <div class="title-content">
-        <div class="title">
-            <div>
-                <div class="img-left">
-                    <img src="./image/flat-icon.svg" alt="">
+    <header class="navheader flex pa2">
+        <img src="./image/flat-icon_en.svg" alt="Agora Flat logo">
+        <div class="flex-1"></div>
+        <nav class="flex">
+            <ul class="mobile-disabled inline-flex list-none ma0 pa0">
+                <li class="pl2"><a href="https://github.com/netless-io/flat/issues" target="_blank">Feedback</a></li>
+                <!-- <li class="pl2">
+                    <label for="lang">🌐</label>
+                    <select id="lang">
+                        <option>English</option>
+                    </select>
+                </li> -->
+                <li class="pl2">
+                    <a href="https://web.flat.agora.io/" target="_blank" class="try-btn inline-flex">
+                        <span>Try for free with web</span>
+                    </a>
+                </li>
+                <li class="pl2">
+                    <a href="#download" class="download-btn inline-flex ml1">
+                        Download
+                    </a>
+                </li>
+            </ul>
+            <ul class="desktop-disabled inline-flex list-none ma0 pa0">
+                <!-- <li class="pl2">
+                    <img id="lang-mobile" src="./image/language.svg" alt="language">
+                </li> -->
+                <li class="pl2">
+                    <img id="folding-mobile" src="./image/folding.svg" alt="folding">
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <div class="hero">
+                <p class="center title">Better Teaching for freelances</p>
+                <p class="center f2 subtitle">Simple, refreshing online teaching tool that focuses on the in-class
+                    interactive experience</p>
+                <div class="center mt4">
+                    <a href="https://web.flat.agora.io/" target="_blank" class="try-btn inline-flex">
+                        <span>Try for free with web</span>
+                    </a>
+                    <a href="#download" class="download-btn inline-flex ml1">
+                        Download
+                    </a>
                 </div>
-            </div>
-            <div>
-                <div class="title-right show">
-                    <div>
-                        <a href="https://github.com/netless-io/flat/issues" target="_blank">Feedback</a>
-                    </div>
-                    <div>
-                        <a href="#try">
-                            <button class="btn-a">Try for tree</button>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#down">
-                            <button class="btn-b">Download</button>
-                        </a>
-                    </div>
-                </div>
-                <div id="und" class="underlines">
-                    <div class="underline"></div>
-                    <div class="underline"></div>
-                    <div class="underline"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="middle-img">
-        <div class="mask">
-            <div class="content">
-                <div class="text-content">
-                    <div class="mask-text">
-                        <p class="powerful">A powerful Online Teaching Virtual Classroom</p>
-                        <span class="online">Simple, refreshing online teaching tool that focuses on the in-class
-                            interactive experience</span>
-                        <div>
-                            <button name="try" id="try" class="btn_3">Try for tree</button>
-                            <button name="down" id="down" class="btn_4">Download</button>
-                        </div>
-                    </div>
-
-                    <!--背景图   -->
-                    <div class="mask-img">
-                    </div>
-
-                    <div class="img none">
-                        <img src="./image/phone-bgc.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="text-content">
-            <div class="cards">
-                <div calss="cards-a">
-                    <div>
-                        <img src="./image/share.svg" alt="">
-                    </div>
-                    <div>
-                        <p class="share">Share While Boarding</p>
-                        <span class="online-a">For online teaching scenarios where you are sharing while boar</span>
-                    </div>
-                </div>
-                <div calss="cards-a">
-                    <div>
-                        <img src="./image/extensive.svg" alt="">
-                    </div>
-                    <div>
-                        <p class="share">Extensive Courseware</p>
-                        <span class="online-a">Synchronized sharing of courseware and are sharing while hoar</span>
-                    </div>
-                </div>
-                <div calss="cards-a">
-                    <div>
-                        <img src="./image/interaction.svg" alt="">
-                    </div>
-                    <div>
-                        <p class="share">Windows Intteractions</p>
-                        <span class="online-a">Windows intteractions,Support for switching on display</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="text-content">
-            <div class="tabs-0 slideshow">
-                <div>
-                    <div class="images">
-                        <img src="./image/whiteboard.svg" alt="">
-                        <img style="display: none;" src="./image/video.svg" alt="">
-                        <img style="display: none;" src="./image/replay.svg" alt="">
-                        <img style="display: none;" src="./image/sharing.svg" alt="">
-                    </div>
-                </div>
-                <div class="slideshow-right">
-                    <div>
-                        <p class="online-text item active">A professional online teaching tool</p>
-                        <div class="share-text">
-                            Designed with the whiteboard in mind ,suitable for involve sharing while boarding
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="item active">
-                            <p>Interactive whiteboard</p>
-                        </div>
-                        <div class="item">
-                            <p>HD Audio And Video</p>
-                        </div>
-                        <div class="item">
-                            <p>Record & Replay</p>
-                        </div>
-                        <div class="item">
-                            <p>Courseware sharing</p>
-                        </div>
-                    </div>
-                    <div class="slideshow-left_1 none">
-                        <div class="images_1">
-                            <img src="./image/whiteboard.svg" alt="">
-                            <img style="display: none;" src="./image/video.svg" alt="">
-                            <img style="display: none;" src="./image/replay.svg" alt="">
-                            <img style="display: none;" src="./image/sharing.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tabs-1 slideshow">
-                <div class="slideshow-right">
-                    <div>
-                        <p class="online-text">A professional online teaching tool</p>
-                        <div class="share-text">
-                            Designed with the whiteboard in mind ,suitable for involve sharing while boarding
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="item active">
-                            <p>Book a class</p>
-                        </div>
-                        <div class="item">
-                            <p>Upload file</p>
-                        </div>
-                        <div class="item">
-                            <p>Q&A</p>
-                        </div>
-                        <div class="item">
-                            <p>Issue rewards</p>
-                        </div>
-                        <div class="item">
-                            <p>Authority manage</p>
-                        </div>
-                    </div>
-                    <div class="slideshow-left_1 none">
-                        <div class="images_1">
-                            <img src="./image/book.svg" alt="">
-                            <img style="display:none;" src="./image/upfile.svg" alt="">
-                            <img style="display:none;" src="./image/q&a.svg" alt="">
-                            <img style="display:none;" src="./image/rewards.svg" alt="">
-                            <img style="display:none;" src="./image/authority.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="slideshow-left">
-                    <div class="images">
-                        <img src="./image/book.svg" alt="">
-                        <img style="display:none;" src="./image/upfile.svg" alt="">
-                        <img style="display:none;" src="./image/q&a.svg" alt="">
-                        <img style="display:none;" src="./image/rewards.svg" alt="">
-                        <img style="display:none;" src="./image/authority.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="tabs-2 slideshow">
-                <div class="slideshow-left">
-                    <div class="images">
-                        <img src="./image/speak.svg" alt="">
-                        <img style="display: none;" src="./image/doodle.svg" alt="">
-                        <img style="display: none;" src="./image/chat.svg" alt="">
-                        <img style="display: none;" src="./image/view-replay.svg" alt="">
-                        <img style="display: none;" src="./image/upimages.svg" alt="">
-                    </div>
-                </div>
-                <div class="slideshow-right">
-                    <div>
-                        <p class="online-text item active">A professional online teaching tool</p>
-                        <div class="share-text">
-                            Designed with the whiteboard in mind ,suitable for involve sharing while boarding
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="item active">
-                            <p>Raise hand to speak</p>
-                        </div>
-                        <div class="item">
-                            <p>Doodle</p>
-                        </div>
-                        <div class="item">
-                            <p>Group Chat</p>
-                        </div>
-                        <div class="item">
-                            <p>View Replay</p>
-                        </div>
-                        <div class="item">
-                            <p>Upload Images</p>
-                        </div>
-                    </div>
-                    <div class="slideshow-left_1 none">
-                        <div class="images">
-                            <img src="./image/speak.svg" alt="">
-                            <img style="display: none;" src="./image/doodle.svg" alt="">
-                            <img style="display: none;" src="./image/chat.svg" alt="">
-                            <img style="display: none;" src="./image/view-replay.svg" alt="">
-                        </div>
-                    </div>
-                    <img style="display: none;" src="./image/upimages.svg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="content">
-        <div class="text-content">
-            <div class="cards">
-                <div class="cards-a">
-                    <img src="./image/plugin.svg" alt="">
-                    <div>
-                        <p class="share">Scenario plugin</p>
-                        <span class="online">
-                            Support common classroom plug-ins: YouTube, Google Docs, GeoGebra, Code Editor, Cut down
-                        </span>
-                    </div>
-                </div>
-                <div class="cards-a">
-                    <img src="./image/phone.svg" alt="">
-                    <div>
-                        <p class="share">Mobile first</p>
-                        <span class="online">
-                            Support iOS, Android, iPadOS, macOS, Windows versions, not limited by devices
-                        </span>
-                    </div>
-                </div>
-                <div class="cards-a">
-                    <img src="./image/opensource.svg" alt="">
-                    <div>
-                        <p class="share">Open source</p>
-                        <span class="online">
-                            Based on open source code, complete development quickly
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="text-content images">
-        <div class="text-icon">
-            <div class="share">AaoraFlat hasgained the trust of 1000 + individual teachersand school institutions
-            </div>
-            <div class="imgs">
-                <img src="./image/school-1.svg" alt="">
-                <img src="./image/school-2.svg" alt="">
-                <img src="./image/school-3.svg" alt="">
-                <img src="./image/school-4.svg" alt="">
-                <img src="./image/school-5.svg" alt="">
-                <img src="./image/school-6.svg" alt="">
-                <img src="./image/school-7.svg" alt="">
-                <img src="./image/school-8.svg" alt="">
-            </div>
-        </div>
-
-        <div class="box-scrolling">
-            <div class="list">
             </div>
 
-            <div class="list">
+            <div class="center">
+                <img class="cover desktop mobile-disabled" loading="lazy" src="./image/hero-image.png" alt="cover">
+                <img class="cover mobile desktop-disabled" loading="lazy" src="./image/hero-mobile.png" alt="cover">
             </div>
-        </div>
+        </header>
 
-    </div>
-    <div class="content none">
-        <div class="text-icon">
-            <div class="share">
-                AaoraFlat hasgained the trust of 1000 + individual teachers and school institutions
+        <section class="func-desc flex pa3">
+            <div class="pa2 flex-1">
+                <img src="./image/share.svg" alt="share">
+                <p class="f3 mt3">Share While Boarding</p>
+                <p class="subtitle">For online teaching scenarios where you are sharing while boar</p>
             </div>
-            <div class="imgs">
-                <div class="imgs-a">
-                    <img src="./image/school-1.svg" alt="">
-                    <img src="./image/school-2.svg" alt="">
-                    <img src="./image/school-3.svg" alt="">
+            <div class="pa2 flex-1">
+                <img src="./image/extensive.svg" alt="extensive">
+                <p class="f3 mt3">Extensive Courseware</p>
+                <p class="subtitle">Synchronized sharing of courseware and animations</p>
+            </div>
+            <div class="pa2 flex-1">
+                <img src="./image/interaction.svg" alt="interaction">
+                <p class="f3 mt3">Windows Interactions</p>
+                <p class="subtitle">Windowed interaction, Support for switching on display</p>
+            </div>
+        </section>
+
+        <section class="carousel carousel-1 flex pa3">
+            <div class="images flex flex-align-center">
+                <img src="./image/carousel-1-interactive.webp" alt="interactive whiteboard">
+                <img src="./image/carousel-1-video.webp" alt="audio&video">
+                <img src="./image/carousel-1-courseware.webp" alt="courseware sharing">
+                <img src="./image/carousel-1-record.webp" alt="record&replace">
+            </div>
+            <div class="carousel-keys pa2">
+                <p class="subtitle">A professional online teaching tool</p>
+                <p class="f3 mt1">Designed with the whiteboard in mind, suitable for involve sharing while boarding</p>
+                <div class="items grid-2c mt4">
+                    <span class="item active">Interactive whiteboard</span>
+                    <span class="item">HD audio and video</span>
+                    <span class="item">Courseware sharing</span>
+                    <span class="item">Record & Replay</span>
                 </div>
-                <div class="imgs-a">
-                    <img src="./image/school-4.svg" alt="">
-                    <img src="./image/school-5.svg" alt="">
-                    <img src="./image/school-6.svg" alt="">
+            </div>
+        </section>
+
+        <section class="carousel carousel-2 flex pa3">
+            <div class="carousel-keys pa2">
+                <p class="subtitle">Improve teacher teaching efficiency</p>
+                <p class="f3 mt1">While meeting teaching needs, it can easily adapt to changes from offline to online
+                </p>
+                <div class="items grid-3c mt4">
+                    <span class="item active">Book a class</span>
+                    <span class="item">Upload file</span>
+                    <span class="item">Q&A</span>
+                    <span class="item">Issue rewards</span>
+                    <span class="item">Authority manage</span>
+                    <span class="item text-disabled" title="coming soon">Homework</span>
+                    <span class="item text-disabled" title="coming soon">Data export</span>
                 </div>
-                <img src="./image/school-7.svg" alt="">
-                <img src="./image/school-8.svg" alt="">
             </div>
-            <div class="box-scrolling">
+            <div class="images flex flex-align-center">
+                <img src="./image/carousel-2-class.webp" alt="book classes">
+                <img src="./image/carousel-2-upload.webp" alt="upload file">
+                <img src="./image/carousel-2-qa.webp" alt="q&a">
+                <img src="./image/carousel-2-rewards.webp" alt="issue rewards">
+                <img src="./image/carousel-2-authority.webp" alt="authority manage">
+            </div>
+        </section>
 
+        <section class="carousel carousel-3 flex pa3">
+            <div class="images flex flex-align-center">
+                <img src="./image/carousel-3-hand.webp" alt="raise hand">
+                <img src="./image/carousel-3-doodle.webp" alt="doodle">
+                <img src="./image/carousel-3-chat.webp" alt="group chat">
+                <img src="./image/carousel-3-replay.webp" alt="view replay">
+                <img src="./image/carousel-3-img.webp" alt="upload images">
             </div>
-        </div>
-    </div>
-    <div class="content none">
+            <div class="carousel-keys pa2">
+                <p class="subtitle">Stimulate students' interest in learning</p>
+                <p class="f3 mt1">Improve learning concentration and participate in classroom interaction</p>
+                <div class="items grid-2c mt4">
+                    <span class="item active">Raise hand to speak</span>
+                    <span class="item">Doodle</span>
+                    <span class="item">Group Chat</span>
+                    <span class="item">View Replay</span>
+                    <span class="item">Upload Images</span>
+                </div>
+            </div>
+        </section>
 
-        <div class="box-scrolling-a">
-            <div class="list-a">
+        <section class="func-desc flex pa3">
+            <div class="pa2 flex-1">
+                <img src="./image/plugin.svg" alt="plugin">
+                <p class="f3 mt3">Scenario Plugin</p>
+                <p class="subtitle">Support common classroom plug-ins: YouTube, Google Docs, GeoGebra, Code Editor, Cut
+                    down</p>
             </div>
-        </div>
+            <div class="pa2 flex-1">
+                <img src="./image/phone.svg" alt="phone">
+                <p class="f3 mt3">Mobile First</p>
+                <p class="subtitle">Support iOS, Android, iPadOS, macOS, Windows versions, not limited by devices</p>
+            </div>
+            <div class="pa2 flex-1">
+                <img src="./image/opensource.svg" alt="opensource">
+                <p class="f3 mt3">Open Source</p>
+                <p class="subtitle">Based on open source code, complete development quickly</p>
+            </div>
+        </section>
 
-    </div>
-    <div class="text-content">
-        <div class="edition images">
-            <div>
-                <p class="share">Download</p>
-                <span class="online-a">Simultaneously supports iOS,Android,iPadOS,macOS,Windowsversions,not limited by
-                    devices</span>
+        <section class="pa3">
+            <p class="center f3 mt3">Agora Flat has gained the trust of 1000+ individual teachers and school
+                institutions</p>
+            <div class="school-list pa3">
+                <img src="./image/school1.svg" alt="Guangxi University of Finance and Economics">
+                <img src="./image/school2.svg" alt="Xiamen University of Technology">
+                <img src="./image/school3.svg" alt="Chengdu Technological University">
+                <img src="./image/school4.svg" alt="Jiangsu University">
+                <img src="./image/school5.svg" alt="Huazhong University of Science and Technology">
+                <img src="./image/school6.svg" alt="Nanjing Foreign Language School Xianlin Campus">
+                <img src="./image/school7.svg" alt="The Open University of BingTuan">
+                <img src="./image/school8.svg" alt="No.1 Middle School of Linyi shandong">
             </div>
+            <div class="scroll mt4">
+                <div class="scroll-content desktop mobile-disabled"></div>
+                <div class="scroll-content desktop mobile-disabled"></div>
+                <div class="scroll-content mobile desktop-disabled"></div>
+            </div>
+        </section>
+
+        <section class="pa3" id="download">
+            <p class="center f3">Download</p>
+            <p class="center subtitle">Simultaneously supports iOS, Android, iPadOS, macOS, Windows versions, not
+                limited by devices</p>
+
             <div class="download-list mt4">
                 <a class="mobile-disabled">
                     <div class="icon-container">
@@ -381,212 +234,16 @@
                     <span class="f1">Web</span>
                 </a>
             </div>
+        </section>
+    </main>
+    <footer class="copyright mt4 pa2">
+        <div class="center f1">
+            <a href="./privacy.html">Privacy Policy</a>&nbsp;&nbsp;
+            <a href="./service.html">Service Agreement</a>&nbsp;
         </div>
-        <div class="icons none">
-            <div>
-                <p>Download</p>
-                <span class="online-a">
-                    Simultaneously supports iOS,Android,iPadOS,macOS,Windowsversions,not limited by devices
-                </span>
-            </div>
-            <div>
-                <div>
-                    <img src="./image/ios.svg" alt="">
-                </div>
-                <span>ios</span>
-            </div>
-            <div>
-                <div>
-                    <img src="./image/android.svg" alt="">
-                </div>
-                <span>Android</span>
-            </div>
-            <div>
-                <div>
-                    <img src="./image/web.svg" alt="">
-                </div>
-                <span>Web</span>
-            </div>
-        </div>
-        <div>
-            <div class="policy">
-                <a href="#">
-                    <p>Privacy Policy</p>
-                </a>
-                <a href="#">
-                    <p>Service Agreement</p>
-                </a>
-            </div>
-            <div class="copyright">
-                <p>Copyright c 2021 Flat. All Rights Reserved</p>
-            </div>
-        </div>
-    </div>
-
-
-    <div style="display:none" class="downloadFrame">
-        <div class="off">
-            <img id="off" src="./image/off.svg" alt="">
-        </div>
-
-        <div class="download-top">
-            <div>
-                <div class="mac-edition">
-                    下载更适合你的 Mac 的 Agora Flat 版本
-                </div>
-                <div class="btns">
-                    <button class="mac-btn">下载 Apple 芯片版</button>
-                    <button class="mac-btn inel">下载 Intel 芯片版</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="download-bom">
-            <div class="item-bom">
-                <div>
-                    <ul>
-                        <li class="li">点击左上角苹果菜单，点击 「关于本机</li>
-                        <li class="li">查看芯片类型是「Intel」还是「Apple」，并选择对应版本下</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-
-        let comment = [
-            {
-                img: "./image/avatar.svg",
-                name: "Teacher Gong",
-                content: "So easy to use"
-            },
-            {
-                img: "./image/avatar2.svg",
-                name: "Teacher Wang",
-                content: "Parents like the clear picture quality of Flat, which looks more comfortable than ClassIn"
-            },
-            {
-                img: "./image/avatar3.svg",
-                name: "Teacher Xu",
-                content: "I'm a trainer and Flat is awesome, great experience"
-            },
-            {
-                img: "./image/avatar4.svg",
-                name: "Teacher Zhou",
-                content: "My girlfriend is an individual teacher. Due to work scheduling reasons, I used DingTalk to give online classes to the students I brought before. However, I found that the software is very complicated, and the resources for small classes are unstable. I searched on Zhihu and found the Flat online class. I used it once, the interface is refreshing and clean, I would like to express my gratitude to Flat's R&D team"
-            },
-            {
-                img: "./image/avatar5.svg",
-                name: "Teacher Qin",
-                content: "This tool is very lightweight"
-            },
-            {
-                img: "./image/avatar6.svg",
-                name: "Teacher Chen",
-                content: "Thanks to the team, Agora Flat is already very powerful and practical"
-            },
-            {
-                img: "./image/avatar7.svg",
-                name: "Teacher Yan",
-                content: "There are many similar software, but the experience is not good. I accidentally discovered Flat, and I fell in love with it once I used it. Thank you for developing such an excellent software!"
-            },
-            {
-                img: "./image/avatar8.svg",
-                name: "Teacher Chen",
-                content: "I have done a full lesson with the new version. I can say that it’s almost at par with my current app. I will not be renewing my license with my current one. I think Flat has a great potential, sir. Thanks a lot."
-            },
-            {
-                img: "./image/avatar9.svg",
-                name: "Teacher Qin",
-                content: "I’m now satisfied with Flat. It is now my main app. However, I’m still writing down the things that i think it can make it better. Thanks Flat developers."
-            },
-            {
-                img: "./image/avatar10.svg",
-                name: "Teacher Wang",
-                content: "This tool is very lightweight"
-            },
-        ]
-
-        const list = document.querySelector(".list-a")
-        const eles = comment.map((item) => {
-            // 生成元素
-
-            let newInfinte = document.createElement("div")
-            newInfinte.classList.add("infinite-playback")
-
-            newInfinte.innerHTML = `
-                <div class="img-text">
-                    <img src="${item.img}" alt="${item.name}" />
-                    <span>${item.name}</span>
-                </div>
-                <div>${item.content}</div>
-            `
-            return newInfinte;
-        })
-        list.append(...eles)
-
-        commentDesktopContainers.forEach((container, idx) =>
-            container.append(
-                ...fragment.slice(idx * span, span * (idx + 1)).map(i => i.cloneNode(true)),
-                // the purpose of this copy is to make the animation keyframe to set `translateY(-50%)` at `to`。
-                ...fragment.slice(idx * span, span * (idx + 1)).map(i => i.cloneNode(true)),
-            ),
-        )
-        commentMobileContainer.append(
-            ...fragment.map(i => i.cloneNode(true)),
-            ...fragment.map(i => i.cloneNode(true)),
-        )
-
-        var body_mask = document.querySelector(".body-mask")
-        var downloadFrame = document.querySelector(".downloadFrame")
-        var off = document.getElementById("off")
-        var download = document.querySelector(".icon-container")
-
-        download.addEventListener("click", function () {
-            body_mask.style.display = "block"
-            downloadFrame.style.display = "block"
-        })
-
-        off.addEventListener("click", function () {
-            downloadFrame.style.display = "none"
-            body_mask.style.display = "none"
-        })
-
-
-        var file = document.querySelector("#und")
-        var fork = document.querySelector(".fork")
-        var box = document.querySelector(".box")
-        var mask = document.querySelector(".mask-layer")
-
-        file.addEventListener('click', function () {
-            box.style.display = 'block'
-            mask.style.display = "block"
-        })
-
-        fork.addEventListener('click', function () {
-            box.style.display = 'none'
-            mask.style.display = "none"
-        });
-
-
-        const $ = sel => document.querySelector(sel)
-        const $$ = sel => Array.from(document.querySelectorAll(sel))
-        Node.prototype.on = Node.prototype.addEventListener
-
-        for (i = 0; i < 3; i++) {
-            let tabs = $$(`.tabs-${i} .items .item`)
-            let imgs = $$(`.tabs-${i} .images img`)
-
-            function updateTab(activeTab) {
-                tabs.forEach((tab, i) => {
-                    const visible = tab.classList.toggle('active', tab === activeTab)
-                    imgs[i].style.display = visible ? '' : 'none'
-                });
-            }
-            tabs.forEach(tab => tab.on('click', updateTab.bind(null, tab)))
-        }
-    </script>
+        <div class="center mt1 f1">Copyright © 2023 Flat. All Rights Reserved</div>
+    </footer>
+    <script type="module" src="./main.js"></script>
 </body>
 
 </html>
